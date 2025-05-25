@@ -1,0 +1,33 @@
+2025-05-25 22:48:29,931 - root - INFO - Creating directory github/workflow for the file : .gitkeep
+2025-05-25 22:48:29,931 - root - INFO - creating empty path : github/workflow/.gitkeep
+2025-05-25 22:48:29,932 - root - INFO - Creating directory src/datascience for the file : __init__.py
+2025-05-25 22:48:29,932 - root - INFO - creating empty path : src/datascience/__init__.py
+2025-05-25 22:48:29,932 - root - INFO - Creating directory src/datascience/components for the file : __init__.py
+2025-05-25 22:48:29,932 - root - INFO - creating empty path : src/datascience/components/__init__.py
+2025-05-25 22:48:29,932 - root - INFO - Creating directory src/datascience/utils for the file : __init__.py
+2025-05-25 22:48:29,932 - root - INFO - creating empty path : src/datascience/utils/__init__.py
+2025-05-25 22:48:29,932 - root - INFO - Creating directory src/datascience/utils for the file : common.py
+2025-05-25 22:48:29,932 - root - INFO - creating empty path : src/datascience/utils/common.py
+2025-05-25 22:48:29,932 - root - INFO - Creating directory src/datascience/config for the file : __init__.py
+2025-05-25 22:48:29,932 - root - INFO - creating empty path : src/datascience/config/__init__.py
+2025-05-25 22:48:29,932 - root - INFO - Creating directory src/datascience/config for the file : configuration.py
+2025-05-25 22:48:29,932 - root - INFO - creating empty path : src/datascience/config/configuration.py
+2025-05-25 22:48:29,932 - root - INFO - Creating directory src/datascience/pipeline for the file : __init__.py
+2025-05-25 22:48:29,933 - root - INFO - creating empty path : src/datascience/pipeline/__init__.py
+2025-05-25 22:48:29,933 - root - INFO - Creating directory src/datascience/entity for the file : __init__.py
+2025-05-25 22:48:29,933 - root - INFO - creating empty path : src/datascience/entity/__init__.py
+2025-05-25 22:48:29,933 - root - INFO - Creating directory src/datascience/entity for the file : config_entity.py
+2025-05-25 22:48:29,933 - root - INFO - creating empty path : src/datascience/entity/config_entity.py
+2025-05-25 22:48:29,933 - root - INFO - Creating directory src/datascience/constants for the file : __init__.py
+2025-05-25 22:48:29,933 - root - INFO - creating empty path : src/datascience/constants/__init__.py
+2025-05-25 22:48:29,933 - root - INFO - Creating directory config for the file : config.yaml
+2025-05-25 22:48:29,933 - root - INFO - creating empty path : config/config.yaml
+2025-05-25 22:48:29,933 - root - INFO - creating empty path : params.yaml
+2025-05-25 22:48:29,933 - root - INFO - creating empty path : schema.yaml
+2025-05-25 22:48:29,933 - root - INFO - creating empty path : main.py
+2025-05-25 22:48:29,933 - root - INFO - creating empty path : Dockerfile
+2025-05-25 22:48:29,933 - root - INFO - Creating directory research for the file : research.ipynb
+2025-05-25 22:48:29,934 - root - INFO - creating empty path : research/research.ipynb
+2025-05-25 22:48:29,934 - root - INFO - creating empty path : setup.py
+2025-05-25 22:48:29,934 - root - INFO - Creating directory templates for the file : index.html
+2025-05-25 22:48:29,934 - root - INFO - creating empty path : templates/index.html
