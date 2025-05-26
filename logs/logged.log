@@ -47,3 +47,37 @@ Expires: Mon, 26 May 2025 08:36:20 GMT
 Source-Age: 0
 
 ]
+[2025-05-26 16:17:52,956: INFO: main: >>>>> stage DATA INGESTION STEP started<<<<]
+[2025-05-26 16:17:52,957: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-26 16:17:52,959: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-26 16:17:52,959: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-26 16:17:52,959: INFO: common: Created directory at artifacts]
+[2025-05-26 16:17:52,959: INFO: common: Created directory at artifacts/data_ingestion]
+[2025-05-26 16:17:54,140: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 6B81:346A52:A2F7B:1387D9:683446D9
+Accept-Ranges: bytes
+Date: Mon, 26 May 2025 10:47:54 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10229-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1748256474.697100,VS0,VE512
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: fa0a7c85090266ad498b3b45f3290684e1c72a0e
+Expires: Mon, 26 May 2025 10:52:54 GMT
+Source-Age: 0
+
+]
+[2025-05-26 16:17:54,141: INFO: main: >>>>>> stage DATA INGESTION STEP completed <<<<<]
