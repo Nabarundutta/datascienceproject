@@ -81,3 +81,100 @@ Source-Age: 0
 
 ]
 [2025-05-26 16:17:54,141: INFO: main: >>>>>> stage DATA INGESTION STEP completed <<<<<]
+[2025-05-26 22:04:09,813: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-26 22:04:09,820: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-26 22:04:09,826: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-26 22:04:09,830: INFO: common: Created directory at artifacts]
+[2025-05-26 22:04:09,832: INFO: common: Created directory at artifacts/data_validation]
+[2025-05-26 22:36:35,552: INFO: main: >>>>> stage DATA INGESTION STEP started<<<<]
+[2025-05-26 22:36:35,553: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-26 22:36:35,554: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-26 22:36:35,555: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-26 22:36:35,555: INFO: common: Created directory at artifacts]
+[2025-05-26 22:36:35,555: INFO: common: Created directory at artifacts/data_ingestion]
+[2025-05-26 22:36:35,555: INFO: data_ingestion: File already exists]
+[2025-05-26 22:36:35,557: INFO: main: >>>>>> stage DATA INGESTION STEP completed <<<<<]
+[2025-05-26 22:36:59,833: INFO: main: >>>>> stage DATA INGESTION STEP started<<<<]
+[2025-05-26 22:36:59,834: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-26 22:36:59,834: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-26 22:36:59,835: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-26 22:36:59,835: INFO: common: Created directory at artifacts]
+[2025-05-26 22:36:59,836: INFO: common: Created directory at artifacts/data_ingestion]
+[2025-05-26 22:36:59,836: INFO: data_ingestion: File already exists]
+[2025-05-26 22:36:59,837: INFO: main: >>>>>> stage DATA INGESTION STEP completed <<<<<]
+[2025-05-26 22:36:59,837: INFO: main: >>>> stage DATA VALIDATION STEP started<<<<<]
+[2025-05-26 22:36:59,837: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-26 22:36:59,838: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-26 22:36:59,838: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-26 22:36:59,838: INFO: common: Created directory at artifacts]
+[2025-05-26 22:36:59,838: INFO: common: Created directory at artifacts/data_ingestion]
+[2025-05-26 22:36:59,838: ERROR: main: 'DataIngestionConfig' object has no attribute 'unzip_data_dir']
+Traceback (most recent call last):
+  File "/Users/nabarundutta/Downloads/Projects/datascienceproject/main.py", line 24, in <module>
+    data_validation.initiate_data_validation()
+  File "/Users/nabarundutta/Downloads/Projects/datascienceproject/src/datascience/pipeline/data_validation.py", line 14, in initiate_data_validation
+    data_validation.validate_all_columns()
+  File "/Users/nabarundutta/Downloads/Projects/datascienceproject/src/datascience/components/data_validation.py", line 35, in validate_all_columns
+    raise e
+  File "/Users/nabarundutta/Downloads/Projects/datascienceproject/src/datascience/components/data_validation.py", line 16, in validate_all_columns
+    data = pd.read_csv(self.config.unzip_data_dir)
+AttributeError: 'DataIngestionConfig' object has no attribute 'unzip_data_dir'
+[2025-05-26 22:40:27,110: INFO: main: >>>>> stage DATA INGESTION STEP started<<<<]
+[2025-05-26 22:40:27,111: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-26 22:40:27,111: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-26 22:40:27,112: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-26 22:40:27,112: INFO: common: Created directory at artifacts]
+[2025-05-26 22:40:27,112: INFO: common: Created directory at artifacts/data_ingestion]
+[2025-05-26 22:40:27,112: INFO: data_ingestion: File already exists]
+[2025-05-26 22:40:27,113: INFO: main: >>>>>> stage DATA INGESTION STEP completed <<<<<]
+[2025-05-26 22:40:27,113: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-05-26 22:40:27,113: ERROR: main: name 'DataValidationTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "/Users/nabarundutta/Downloads/Projects/datascienceproject/main.py", line 21, in <module>
+    data_ingestion = DataValidationTrainingPipeline()
+NameError: name 'DataValidationTrainingPipeline' is not defined
+[2025-05-26 22:41:16,555: INFO: main: >>>>> stage DATA INGESTION STEP started<<<<]
+[2025-05-26 22:41:16,557: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-26 22:41:16,557: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-26 22:41:16,558: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-26 22:41:16,558: INFO: common: Created directory at artifacts]
+[2025-05-26 22:41:16,558: INFO: common: Created directory at artifacts/data_ingestion]
+[2025-05-26 22:41:16,558: INFO: data_ingestion: File already exists]
+[2025-05-26 22:41:16,559: INFO: main: >>>>>> stage DATA INGESTION STEP completed <<<<<]
+[2025-05-26 22:41:16,559: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-05-26 22:41:16,559: ERROR: main: name 'DataValidationTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "/Users/nabarundutta/Downloads/Projects/datascienceproject/main.py", line 21, in <module>
+    data_ingestion = DataValidationTrainingPipeline()
+NameError: name 'DataValidationTrainingPipeline' is not defined
+[2025-05-26 22:41:52,228: INFO: main: >>>>> stage DATA INGESTION STEP started<<<<]
+[2025-05-26 22:41:52,229: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-26 22:41:52,229: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-26 22:41:52,230: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-26 22:41:52,230: INFO: common: Created directory at artifacts]
+[2025-05-26 22:41:52,231: INFO: common: Created directory at artifacts/data_ingestion]
+[2025-05-26 22:41:52,231: INFO: data_ingestion: File already exists]
+[2025-05-26 22:41:52,232: INFO: main: >>>>>> stage DATA INGESTION STEP completed <<<<<]
+[2025-05-26 22:41:52,232: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-05-26 22:41:52,232: ERROR: main: name 'DataValidationTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "/Users/nabarundutta/Downloads/Projects/datascienceproject/main.py", line 21, in <module>
+    data_ingestion = DataValidationTrainingPipeline()
+NameError: name 'DataValidationTrainingPipeline' is not defined
+[2025-05-26 22:43:13,948: INFO: main: >>>>> stage DATA INGESTION STEP started<<<<]
+[2025-05-26 22:43:13,949: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-26 22:43:13,950: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-26 22:43:13,951: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-26 22:43:13,951: INFO: common: Created directory at artifacts]
+[2025-05-26 22:43:13,951: INFO: common: Created directory at artifacts/data_ingestion]
+[2025-05-26 22:43:13,951: INFO: data_ingestion: File already exists]
+[2025-05-26 22:43:13,952: INFO: main: >>>>>> stage DATA INGESTION STEP completed <<<<<]
+[2025-05-26 22:43:13,952: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-05-26 22:43:13,953: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-26 22:43:13,953: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-26 22:43:13,954: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-26 22:43:13,954: INFO: common: Created directory at artifacts]
+[2025-05-26 22:43:13,954: INFO: common: Created directory at artifacts/data_validation]
+[2025-05-26 22:43:13,960: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
