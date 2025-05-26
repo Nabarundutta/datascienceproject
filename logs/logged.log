@@ -1,1 +1,49 @@
 [2025-05-26 00:23:09,559: INFO: main: hello welcome to this project]
+[2025-05-26 13:53:28,096: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-26 13:53:28,102: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-26 13:54:10,502: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-26 13:54:10,504: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-26 13:54:10,505: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-26 13:55:28,068: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-26 13:55:28,070: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-26 13:55:28,071: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-26 13:55:58,980: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-26 13:55:58,982: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-26 13:55:58,984: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-26 13:58:46,338: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-26 13:58:46,342: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-26 13:58:46,344: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-26 13:58:46,345: INFO: common: Created directory at artifacts]
+[2025-05-26 13:58:46,346: INFO: common: Created directory at artifacts/data_ingestion]
+[2025-05-26 14:01:19,447: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-26 14:01:19,449: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-26 14:01:19,449: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-26 14:01:19,450: INFO: common: Created directory at artifacts]
+[2025-05-26 14:01:19,450: INFO: common: Created directory at artifacts/data_ingestion]
+[2025-05-26 14:01:20,886: INFO: 251335794: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 627C:38AE8F:6C928:D1660:683426D8
+Accept-Ranges: bytes
+Date: Mon, 26 May 2025 08:31:20 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10240-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1748248280.482406,VS0,VE417
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 0b3ed7d3e773090b60a77f403b922f7609609784
+Expires: Mon, 26 May 2025 08:36:20 GMT
+Source-Age: 0
+
+]
