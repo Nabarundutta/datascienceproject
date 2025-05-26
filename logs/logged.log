@@ -178,3 +178,59 @@ NameError: name 'DataValidationTrainingPipeline' is not defined
 [2025-05-26 22:43:13,960: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
 
 x==========x]
+[2025-05-27 00:40:07,533: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-27 00:40:07,546: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-27 00:40:07,554: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-27 00:40:07,555: ERROR: 3049767176: name 'config' is not defined]
+Traceback (most recent call last):
+  File "/var/folders/1v/84cg0ffx1pqgzh0xsmw44w200000gn/T/ipykernel_45281/3049767176.py", line 2, in <module>
+    config = ConfigurationManager()
+  File "/var/folders/1v/84cg0ffx1pqgzh0xsmw44w200000gn/T/ipykernel_45281/947982567.py", line 11, in __init__
+    create_directories([config.artifacts_root])
+NameError: name 'config' is not defined
+[2025-05-27 00:40:15,031: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-27 00:40:15,034: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-27 00:40:15,037: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-27 00:41:19,532: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-27 00:41:19,533: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-27 00:41:19,534: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-27 00:42:59,123: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-27 00:42:59,123: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-27 00:42:59,125: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-27 00:46:21,087: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-27 00:46:21,090: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-27 00:46:21,091: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-27 00:46:21,091: INFO: common: Created directory at artifacts]
+[2025-05-27 00:46:21,093: INFO: common: Created directory at artifacts/data_transformation]
+[2025-05-27 00:46:21,105: INFO: 3058295181: splitted data into test and train datasets]
+[2025-05-27 00:46:21,106: INFO: 3058295181: (1199, 12)]
+[2025-05-27 00:46:21,106: INFO: 3058295181: (400, 12)]
+[2025-05-27 01:04:30,237: INFO: main: >>>>> stage DATA INGESTION STEP started<<<<]
+[2025-05-27 01:04:30,239: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-27 01:04:30,240: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-27 01:04:30,242: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-27 01:04:30,242: INFO: common: Created directory at artifacts]
+[2025-05-27 01:04:30,242: INFO: common: Created directory at artifacts/data_ingestion]
+[2025-05-27 01:04:30,242: INFO: data_ingestion: File already exists]
+[2025-05-27 01:04:30,245: INFO: main: >>>>>> stage DATA INGESTION STEP completed <<<<<]
+[2025-05-27 01:04:30,245: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-05-27 01:04:30,246: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-27 01:04:30,246: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-27 01:04:30,247: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-27 01:04:30,247: INFO: common: Created directory at artifacts]
+[2025-05-27 01:04:30,247: INFO: common: Created directory at artifacts/data_validation]
+[2025-05-27 01:04:30,251: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-05-27 01:04:30,251: INFO: main: >>>>> stage DATA TRANSFORMATION STAGE started <<<<<<]
+[2025-05-27 01:04:30,252: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-27 01:04:30,252: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-27 01:04:30,253: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-27 01:04:30,253: INFO: common: Created directory at artifacts]
+[2025-05-27 01:04:30,253: INFO: common: Created directory at artifacts/data_transformation]
+[2025-05-27 01:04:30,264: INFO: data_transformation: splitted data into test and train datasets]
+[2025-05-27 01:04:30,264: INFO: data_transformation: (1199, 12)]
+[2025-05-27 01:04:30,264: INFO: data_transformation: (400, 12)]
+[2025-05-27 01:04:30,264: INFO: main: >>>>> stage DATA TRANSFORMATION STAGE completed<<<<<<
+
+x==========x]
