@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #2c3e50, #4ca1af);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .result-container {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 40px 50px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(8px);
+        }
+
+        h1.prediction-result {
+            font-size: 36px;
+            color: #00ffbf;
+            font-weight: 600;
+            margin-bottom: 15px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        p.description {
+            font-size: 18px;
+            color: #f0f0f0;
+            margin-top: 10px;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .back-button {
+            margin-top: 30px;
+            padding: 12px 25px;
+            background-color: #00ffbf;
+            color: #2c3e50;
+            border: none;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-decoration: none;
+        }
+
+        .back-button:hover {
+            background-color: #00d6a3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="result-container">
+        <h1 class="prediction-result">{{ prediction }}</h1>
+        <p class="description">This is the predicted quality based on the data you submitted.</p>
+        <a href="/" class="back-button">Go Back</a>
+    </div>
+
+</body>
+</html>

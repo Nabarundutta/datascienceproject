@@ -511,3 +511,214 @@ x==========x]
 [2025-05-29 00:44:15,198: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
 
 x==========x]
+[2025-05-29 22:19:16,798: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080]
+[2025-05-29 22:19:16,798: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-05-29 22:19:27,443: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:19:27] "GET / HTTP/1.1" 200 -]
+[2025-05-29 22:19:27,492: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:19:27] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-05-29 22:19:27,502: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:19:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-05-29 22:19:45,790: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:19:45] "POST /predict HTTP/1.1" 200 -]
+[2025-05-29 22:19:54,771: INFO: main: >>>>> stage DATA INGESTION STEP started<<<<]
+[2025-05-29 22:19:54,773: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-29 22:19:54,774: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-29 22:19:54,775: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-29 22:19:54,776: INFO: common: Created directory at artifacts]
+[2025-05-29 22:19:54,776: INFO: common: Created directory at artifacts/data_ingestion]
+[2025-05-29 22:19:54,776: INFO: data_ingestion: File already exists]
+[2025-05-29 22:19:54,778: INFO: main: >>>>>> stage DATA INGESTION STEP completed <<<<<]
+[2025-05-29 22:19:54,778: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-05-29 22:19:54,779: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-29 22:19:54,780: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-29 22:19:54,780: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-29 22:19:54,780: INFO: common: Created directory at artifacts]
+[2025-05-29 22:19:54,781: INFO: common: Created directory at artifacts/data_validation]
+[2025-05-29 22:19:54,786: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-05-29 22:19:54,786: INFO: main: >>>>> stage DATA TRANSFORMATION STAGE started <<<<<<]
+[2025-05-29 22:19:54,788: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-29 22:19:54,788: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-29 22:19:54,789: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-29 22:19:54,789: INFO: common: Created directory at artifacts]
+[2025-05-29 22:19:54,789: INFO: common: Created directory at artifacts/data_transformation]
+[2025-05-29 22:19:54,800: INFO: data_transformation: splitted data into test and train datasets]
+[2025-05-29 22:19:54,800: INFO: data_transformation: (1199, 12)]
+[2025-05-29 22:19:54,800: INFO: data_transformation: (400, 12)]
+[2025-05-29 22:19:54,801: INFO: main: >>>>> stage DATA TRANSFORMATION STAGE completed<<<<<<
+
+x==========x]
+[2025-05-29 22:19:54,801: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-05-29 22:19:54,802: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-29 22:19:54,802: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-29 22:19:54,803: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-29 22:19:54,803: INFO: common: Created directory at artifacts]
+[2025-05-29 22:19:54,803: INFO: common: Created directory at artifacts/model_trainer]
+[2025-05-29 22:19:54,810: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-05-29 22:19:54,810: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2025-05-29 22:19:54,812: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-29 22:19:54,812: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-29 22:19:54,813: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-29 22:19:54,813: INFO: common: Created directory at artifacts]
+[2025-05-29 22:19:54,813: INFO: common: Created directory at artifacts/model_evaluation]
+[2025-05-29 22:19:57,693: INFO: common: json file saved at : artifacts/model_evaluation/metrics.json]
+[2025-05-29 22:20:07,999: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2025-05-29 22:20:08,368: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:20:08] "GET /train HTTP/1.1" 200 -]
+[2025-05-29 22:20:25,279: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:20:25] "GET / HTTP/1.1" 200 -]
+[2025-05-29 22:20:25,303: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:20:25] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-05-29 22:20:26,206: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:20:26] "GET / HTTP/1.1" 200 -]
+[2025-05-29 22:20:26,216: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:20:26] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-05-29 22:20:32,490: INFO: main: >>>>> stage DATA INGESTION STEP started<<<<]
+[2025-05-29 22:20:32,492: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-29 22:20:32,494: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-29 22:20:32,495: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-29 22:20:32,495: INFO: common: Created directory at artifacts]
+[2025-05-29 22:20:32,495: INFO: common: Created directory at artifacts/data_ingestion]
+[2025-05-29 22:20:32,496: INFO: data_ingestion: File already exists]
+[2025-05-29 22:20:32,497: INFO: main: >>>>>> stage DATA INGESTION STEP completed <<<<<]
+[2025-05-29 22:20:32,497: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-05-29 22:20:32,500: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-29 22:20:32,500: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-29 22:20:32,502: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-29 22:20:32,502: INFO: common: Created directory at artifacts]
+[2025-05-29 22:20:32,502: INFO: common: Created directory at artifacts/data_validation]
+[2025-05-29 22:20:32,508: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-05-29 22:20:32,508: INFO: main: >>>>> stage DATA TRANSFORMATION STAGE started <<<<<<]
+[2025-05-29 22:20:32,510: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-29 22:20:32,510: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-29 22:20:32,511: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-29 22:20:32,511: INFO: common: Created directory at artifacts]
+[2025-05-29 22:20:32,511: INFO: common: Created directory at artifacts/data_transformation]
+[2025-05-29 22:20:32,524: INFO: data_transformation: splitted data into test and train datasets]
+[2025-05-29 22:20:32,525: INFO: data_transformation: (1199, 12)]
+[2025-05-29 22:20:32,525: INFO: data_transformation: (400, 12)]
+[2025-05-29 22:20:32,525: INFO: main: >>>>> stage DATA TRANSFORMATION STAGE completed<<<<<<
+
+x==========x]
+[2025-05-29 22:20:32,525: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-05-29 22:20:32,527: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-29 22:20:32,527: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-29 22:20:32,528: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-29 22:20:32,529: INFO: common: Created directory at artifacts]
+[2025-05-29 22:20:32,529: INFO: common: Created directory at artifacts/model_trainer]
+[2025-05-29 22:20:32,539: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-05-29 22:20:32,539: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2025-05-29 22:20:32,545: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-29 22:20:32,547: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-29 22:20:32,548: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-29 22:20:32,548: INFO: common: Created directory at artifacts]
+[2025-05-29 22:20:32,548: INFO: common: Created directory at artifacts/model_evaluation]
+[2025-05-29 22:20:33,364: INFO: common: json file saved at : artifacts/model_evaluation/metrics.json]
+[2025-05-29 22:20:43,639: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2025-05-29 22:20:44,040: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:20:44] "GET /train HTTP/1.1" 200 -]
+[2025-05-29 22:21:21,987: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:21:21] "GET / HTTP/1.1" 200 -]
+[2025-05-29 22:21:22,008: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:21:22] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-05-29 22:21:45,843: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:21:45] "POST /predict HTTP/1.1" 200 -]
+[2025-05-29 22:24:03,954: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080]
+[2025-05-29 22:24:03,954: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-05-29 22:24:12,460: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:24:12] "GET / HTTP/1.1" 200 -]
+[2025-05-29 22:24:12,513: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:24:12] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-05-29 22:24:18,652: INFO: main: >>>>> stage DATA INGESTION STEP started<<<<]
+[2025-05-29 22:24:18,654: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-29 22:24:18,655: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-29 22:24:18,656: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-29 22:24:18,656: INFO: common: Created directory at artifacts]
+[2025-05-29 22:24:18,656: INFO: common: Created directory at artifacts/data_ingestion]
+[2025-05-29 22:24:18,656: INFO: data_ingestion: File already exists]
+[2025-05-29 22:24:18,658: INFO: main: >>>>>> stage DATA INGESTION STEP completed <<<<<]
+[2025-05-29 22:24:18,658: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-05-29 22:24:18,660: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-29 22:24:18,660: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-29 22:24:18,661: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-29 22:24:18,661: INFO: common: Created directory at artifacts]
+[2025-05-29 22:24:18,661: INFO: common: Created directory at artifacts/data_validation]
+[2025-05-29 22:24:18,670: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-05-29 22:24:18,670: INFO: main: >>>>> stage DATA TRANSFORMATION STAGE started <<<<<<]
+[2025-05-29 22:24:18,673: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-29 22:24:18,674: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-29 22:24:18,675: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-29 22:24:18,675: INFO: common: Created directory at artifacts]
+[2025-05-29 22:24:18,675: INFO: common: Created directory at artifacts/data_transformation]
+[2025-05-29 22:24:18,694: INFO: data_transformation: splitted data into test and train datasets]
+[2025-05-29 22:24:18,695: INFO: data_transformation: (1199, 12)]
+[2025-05-29 22:24:18,695: INFO: data_transformation: (400, 12)]
+[2025-05-29 22:24:18,695: INFO: main: >>>>> stage DATA TRANSFORMATION STAGE completed<<<<<<
+
+x==========x]
+[2025-05-29 22:24:18,695: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-05-29 22:24:18,696: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-29 22:24:18,697: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-29 22:24:18,697: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-29 22:24:18,697: INFO: common: Created directory at artifacts]
+[2025-05-29 22:24:18,698: INFO: common: Created directory at artifacts/model_trainer]
+[2025-05-29 22:24:18,706: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-05-29 22:24:18,706: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2025-05-29 22:24:18,708: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-29 22:24:18,708: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/params.yaml loaded successfully]
+[2025-05-29 22:24:18,709: INFO: common: yaml file: /Users/nabarundutta/Downloads/Projects/datascienceproject/schema.yaml loaded successfully]
+[2025-05-29 22:24:18,709: INFO: common: Created directory at artifacts]
+[2025-05-29 22:24:18,709: INFO: common: Created directory at artifacts/model_evaluation]
+[2025-05-29 22:24:19,493: INFO: common: json file saved at : artifacts/model_evaluation/metrics.json]
+[2025-05-29 22:24:29,839: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2025-05-29 22:24:30,144: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:24:30] "GET /train HTTP/1.1" 200 -]
+[2025-05-29 22:24:39,743: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:24:39] "GET / HTTP/1.1" 200 -]
+[2025-05-29 22:24:39,767: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:24:39] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-05-29 22:25:01,368: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:25:01] "POST /predict HTTP/1.1" 200 -]
+[2025-05-29 22:27:46,109: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:27:46] "POST /predict HTTP/1.1" 200 -]
+[2025-05-29 22:27:49,726: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:27:49] "GET / HTTP/1.1" 200 -]
+[2025-05-29 22:27:49,741: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:27:49] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-05-29 22:27:50,558: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:27:50] "GET / HTTP/1.1" 200 -]
+[2025-05-29 22:27:50,570: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:27:50] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-05-29 22:27:59,721: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080]
+[2025-05-29 22:27:59,721: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-05-29 22:28:05,723: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:28:05] "GET / HTTP/1.1" 200 -]
+[2025-05-29 22:29:12,578: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:29:12] "POST /predict HTTP/1.1" 200 -]
+[2025-05-29 22:30:18,959: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080]
+[2025-05-29 22:30:18,959: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-05-29 22:30:25,282: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:30:25] "GET / HTTP/1.1" 200 -]
+[2025-05-29 22:30:47,417: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:30:47] "POST /predict HTTP/1.1" 200 -]
+[2025-05-29 22:31:56,169: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080]
+[2025-05-29 22:31:56,169: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-05-29 22:32:02,387: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:32:02] "POST /predict HTTP/1.1" 200 -]
+[2025-05-29 22:32:04,987: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:32:04] "POST /predict HTTP/1.1" 200 -]
+[2025-05-29 22:32:07,256: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:32:07] "GET / HTTP/1.1" 200 -]
+[2025-05-29 22:32:31,082: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:32:31] "POST /predict HTTP/1.1" 200 -]
+[2025-05-29 22:33:51,153: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080]
+[2025-05-29 22:33:51,153: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-05-29 22:33:59,574: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:33:59] "GET / HTTP/1.1" 200 -]
+[2025-05-29 22:34:20,644: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:34:20] "POST /predict HTTP/1.1" 200 -]
+[2025-05-29 22:34:26,372: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:34:26] "GET / HTTP/1.1" 200 -]
+[2025-05-29 22:35:07,905: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:35:07] "POST /predict HTTP/1.1" 200 -]
+[2025-05-29 22:35:15,124: INFO: _internal: 127.0.0.1 - - [29/May/2025 22:35:15] "GET / HTTP/1.1" 200 -]
